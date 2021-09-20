@@ -27,7 +27,9 @@ public class Champions {
     }
 
     void isBlueSide() {
-        if (blueSide) System.out.println(name+" is blue side.");
-        else System.out.println(name+" is red side.");
+        if (blueSide)
+            System.out.println(name+" is blue side.");
+        else
+            System.out.println(name+" is red side.");
     }
 }
